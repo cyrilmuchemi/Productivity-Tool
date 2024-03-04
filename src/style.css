@@ -138,3 +138,16 @@ a.sidebar-link:hover {
     transform: rotate(45deg);
     transition: all .2s ease-out;
 }
+
+.top-nav{
+    margin-inline: 1rem;
+    cursor: pointer;
+}
+
+.gap{
+    gap: 20px;
+}
+
+.header > img {
+    width: 5%;
+}
