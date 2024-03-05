@@ -98,13 +98,20 @@
                     <p>TaskIT</p>
                 </div>
                 <article class="controls d-flex gap">
-                    <div class="flex"><i class="lni lni-plus"></i> Task</div>
-                    <div class="flex"><i class="lni lni-plus"></i> Page</div>
+                    <button id="add-task" class="flex"><i class="lni lni-plus"></i> Task</button>
+                    <button id="new-page" class="flex"><i class="lni lni-plus"></i> Page</button>
                 </article>
             </div>
             <hr/>
-            <section id="tasks">
-
+            <section id="tasks" class="container">
+                <div class="task-body">
+                    <div class="task pt-3">
+                        <button type="button" class="task-btn"><i class="lni lni-chevron-right"></i></button>
+                        <input type="checkbox" id="bake" name="Bake" value="Bake">
+                        <label for="Bake"> Bake cake</label><br>
+                        <div class="time">2h</div>
+                    </div>
+                </div>
             </section>
         </div>
     </div>

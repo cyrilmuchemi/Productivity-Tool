@@ -151,3 +151,22 @@ a.sidebar-link:hover {
 .header > img {
     width: 5%;
 }
+
+.task{
+    display: flex;
+    gap: 10px;
+}
+
+.task-btn{
+    width: 20px;
+    height: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    border-radius: 10px;
+}
+
+.time{
+    text-decoration: underline;
+}
