@@ -170,3 +170,7 @@ a.sidebar-link:hover {
 .time{
     text-decoration: underline;
 }
+
+.task-label-placeholder {
+    color: lightgray;
+}
